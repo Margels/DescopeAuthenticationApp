@@ -46,10 +46,10 @@ struct TestPayload: JWTPayload, Content {
     // or after which the JWT MUST NOT be accepted for processing.
     var expiration: ExpirationClaim
     
-    var roles: [String]
-    var deliveryMethod: [String]
-    var permissions: [String]
-    var userInfo: [String: String]
+    var roles: [String]?
+    var deliveryMethod: [String]?
+    var permissions: [String]?
+    var userInfo: [String: String]?
 
     // Run any additional verification logic beyond
     // signature verification here.
