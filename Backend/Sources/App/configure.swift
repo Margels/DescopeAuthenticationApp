@@ -9,7 +9,7 @@ public func configure(_ app: Application) async throws {
     
     let rsaPublicKey = """
 -----BEGIN PUBLIC KEY-----
-
+<YOUR_KEY>
 -----END PUBLIC KEY-----
 """
 
